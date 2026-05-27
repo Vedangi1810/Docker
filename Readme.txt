@@ -9,7 +9,14 @@ Dockerfile --build-- image --run-- container
 
 if you update source code in your host/local, run docker build and docker run again
 ============================================================================================
-
+docker ps
+docker logs <cont_id>
+docker attach <cont_id>
+docker start <cont_id>
+docker stop <cont_id>
+docker exec -it <cont_id> bash
+docker run -itd ubundu (run continously without stopping)
+============================================================================================
 
 Delete docker images:
 
