@@ -17,7 +17,13 @@ docker stop <cont_id>
 docker exec -it <cont_id> bash
 docker run -itd ubundu (run continously without stopping)
 ============================================================================================
-
+docker networks:
+Host
+Bridge (default)
+User defined bridge (custom)
+None
+MACVLAN, IPLAN,Overlay (docker swarm)
+============================================================================================
 Delete docker images:
 
 Will remove ununsed images
