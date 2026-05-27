@@ -22,7 +22,25 @@ Host
 Bridge (default)
 User defined bridge (custom)
 None
-MACVLAN, IPLAN,Overlay (docker swarm)
+MACVLAN, IPVLAN,Overlay (docker swarm)
+
+docker network ls
+docker network crete mynetwork -d bridge
+docker network inspect mynetwork
+
+docker ps -a (all cont)
+docker run --name --network -p -d
+
+Volumes and STorage:
+docker stop <ocnt_id?> && docker rm <cont_id>
+docker restart <cont_id> (mysql cont data vanishhes)
+docker volume ls
+docker volume create myvol
+docker volume inspect myvol
+
+docker run -v myvol:/var/lib/mysql
+docker run -v home/ubuntu/volumes/mysql:/var/lib/mysql
+
 ============================================================================================
 Delete docker images:
 
