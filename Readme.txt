@@ -1,3 +1,16 @@
+Virtualization vs Containarization
+Architecture of Docker:
+docker daemon (dockerd and containerd), docker client, docker engine, docker CLI
+docker login
+docker images
+docker ps (sudo usermod -aG docker $USER and newgrp docker)
+
+Dockerfile --build-- image --run-- container
+
+if you update source code in your host/local, run docker build and docker run again
+============================================================================================
+
+
 Delete docker images:
 
 Will remove ununsed images
